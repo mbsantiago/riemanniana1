@@ -1,5 +1,9 @@
 # Material adicional del curso
 
+Aquí presentamos una lista de recursos que se pueden encontrar online y que pueden ser útiles para el curso.
+No todos los recursos son del mismo nivel, y algunos definitivamente no son para un primer curso de Geometría riemanniana, sin embargo los  mencionamos por que podrían ser útiles más adelante.
+Así mismo, algunos artículos pueden servir de inspiración para los proyectos.
+
 ## Documentos y artículos
 
 - [Lectures on differential geometry](http://wwwf.imperial.ac.uk/~skdona/lecturenotes/GAUSS.PDF) by [Simon Donaldson](http://wwwf.imperial.ac.uk/~skdona/):
