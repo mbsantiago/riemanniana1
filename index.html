@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="introduccion">
+  <h2> Bienvenidos </h2>
+
+  En esta página encontraran entradas de blogs, notas de las clases, colecciones de ejercicios, documentos de proyectos, aplicaciones interactivas, que acompañarán y complementarán el curso de Geometría Riemanniana I.
+
+  Para consultar el modo de evaluación, visiten la página <a href="calificacion.md"> evaluación</a>.
+
+  Esta página está en construcción, así que les pido un poco de paciencia. Verán mucho movimiento hasta que encontremos el formato adecuado.
+
+  Por el momento les dejo el link de las notas del teorema de la función inversa.
+
+  <a href="notas/parcial1/funcion_implicita.pdf"> notas función inversa<a>
+</div>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+
