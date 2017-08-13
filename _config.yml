@@ -2,8 +2,8 @@
 description: Aquí encontrarán notas, ejercicios, proyectos y más.
 name: Geometría riemanniana1
 
-url: http://mbsantiago.github.io
-baseurl: http://mbsantiago.github.io/riemanniana1
+url: 
+baseurl: 
 
 footer-links:
   github: mbsantiago/riemanniana1
