@@ -2,8 +2,10 @@
 
 ## Documentos y artículos
 
-- [Lectures on differential geometry](http://wwwf.imperial.ac.uk/~skdona/lecturenotes/GAUSS.PDF) by Simon Donaldson:
+- [Lectures on differential geometry](http://wwwf.imperial.ac.uk/~skdona/lecturenotes/GAUSS.PDF) by [Simon Donaldson](http://wwwf.imperial.ac.uk/~skdona/):
 - [Lectures on topology of manifolds](http://wwwf.imperial.ac.uk/~skdona/MANIFOLDS.PDF) by Simond Donaldson:
+- [Artículos expositorios](https://math.berkeley.edu/~alanw/240papers00.html) de los estudiantes de [Alan Weinstein](https://math.berkeley.edu/~alanw/) en una clase de geometría riemanniana.
+- [Topology through the centuries: Low dimensional manifolds](http://www.ams.org/journals/bull/2015-52-04/S0273-0979-2015-01507-7/S0273-0979-2015-01507-7.pdf) de John Milnor.
 
 
 ## Sitios con material de libre uso
