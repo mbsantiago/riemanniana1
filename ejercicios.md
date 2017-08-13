@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Ejercicios
 
 ## Primer parcial

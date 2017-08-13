@@ -1,10 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: Notas de la primera semana.
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Esta primera semana cubrimos el concepto de variedad diferenciable, hablamos
+un poco de el estudio local de funciones diferenciables y vimos la geometría
+plana desde la filosofía de las simetrías, o isometrías:
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+* Notas de la [funcion inversa](notas/parcial1/funcion_implicita.pdf)
