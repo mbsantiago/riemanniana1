@@ -1,6 +1,6 @@
-title: Geometría Riemanniana I
+
 description: Aquí encontrarán notas, ejercicios, proyectos y más.
-name: Santiago Martínez, Román Contreras
+name: Geometría riemanniana1
 
 url: http://mbsantiago.github.io/
 baseurl: http://mbsantiago.github.io/riemanniana1/
@@ -10,6 +10,7 @@ footer-links:
   rss: si
   email: mbal@ciencias.unam.mx
 
+google-analytics: UA-104540860-1
 #
 # !! You don't need to change any of the configuration flags below !!
 #
