@@ -1,3 +1,12 @@
 theme: jekyll-theme-cayman
-title: Bienvenidos al curso de Geometría Riemanniana I!
+title: Geometría Riemanniana I
 description: Aquí encontrarán notas, ejercicios, proyectos y más.
+name: Santiago Martínez, Román Contreras
+
+url: http://mbsantiago.github.io/
+baseurl: http://mbsantiago.github.io/riemanniana1/
+
+footer-links:
+  github: mbsantiago/riemanniana1
+  rss: si
+  email: mbal@ciencias.unam.mx
