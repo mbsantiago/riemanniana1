@@ -3,7 +3,7 @@ layout: page
 title: Ejercicios
 ---
 
-## Primer parcial
-La lista de ejercicios se puede descargar [aquí](ejercicios/parcial1/lista.pdf).
+Aquí encontraran los pdf que contienen la lista de ejercicios de cada uno de los parciales. Los ejercicios están organizados por temas y por semana.
 
-Fecha de entrega: por determinar
+*   [Parcial 1]({{ site.baseurl}}/assets/ejercicios/parcial1/semana1.pdf)
+

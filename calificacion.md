@@ -45,7 +45,7 @@ La calificación final es el promedio de los cuatro parciales (más puntos extra
 
 *Pregunta:* **¿En qué formato prefieren que entregemos los proyectos y ejercicios?**
 
-*Respuesta:* Pueden entregarlos en el formato que quieran, a mano, a máquina, en computadora, tallado, etc... Sin embargo si preferimos que sea a computadora. Es un buen ejercicio para ustedes y es más legible para nosotros.
+*Respuesta:* Pueden entregarlos en el formato que quieran, a mano, a máquina, en computadora, tallado, etc... Sin embargo sí preferimos que sea a computadora. Es un buen ejercicio para ustedes y es más legible para nosotros.
 
 *Pregunta:* **¿Hay asesorias fuera del horario de clase?**
 
