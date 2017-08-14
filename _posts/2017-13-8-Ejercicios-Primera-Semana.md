@@ -86,7 +86,7 @@ Los siguientes ejercicios conciernen algunas construcciones comunes y útiles pa
                 <li> Definimos una relación de equivalencia $x \sim y$ si $x = f(y)$. Las clases de equivalencia, o bien el conjunto
                     obtenido de identificar $p$ con $f(p)$ es llamado
                     $$
-                        M/f = \left\lbrace [p]_{\sim} \mid p in M \right\rbrace
+                        M/f = \left\lbrace [p]_{\sim} \mid p \in M \right\rbrace
                     $$
                     Demuestra, usando el inciso anterior, que $M/f$ tiene una estructura diferenciable tal que la proyección canónica
                     $\pi_f: M \rightarrow M_f$, dada por $\pi_f(p) = [p]$, es diferenciable.</li>
