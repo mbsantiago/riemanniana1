@@ -2,15 +2,15 @@
 description: Facultad de Ciencias, UNAM, 2018-I
 name: Geometría riemanniana1
 
-url: 
-baseurl: 
+# url: 
+# baseurl: 
 
 footer-links:
   github: mbsantiago/riemanniana1
   rss: si
   email: mbal@ciencias.unam.mx
 
-google-analytics: UA-104540860-1
+google_analytics: UA-104540860-1
 
 disqus: mbsantiago-github-io-riemanniana1
 #
