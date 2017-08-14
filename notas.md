@@ -7,5 +7,5 @@ title: Notas
 
 *   Semana 1
     -   Variedades
-    -   [Analisis local de funciones y teorema de la función inversa]({{ site.url }}/assets/notas/parcial1/funcion_implicita.pdf)
+    -   [Analisis local de funciones y teorema de la función inversa]({{ site.baseurl }}/assets/notas/parcial1/funcion_implicita.pdf)
     -   Grupo ortogonal
