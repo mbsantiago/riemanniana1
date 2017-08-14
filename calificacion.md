@@ -1,4 +1,7 @@
-# Calificación
+---
+layout: page
+title: Calificación
+---
 
 Aquí está toda la información que concierne al método de evaluación para el curso de Geometría Riemanniana I.
 
@@ -28,30 +31,30 @@ La calificación final es el promedio de los cuatro parciales (más puntos extra
 
 ## Preguntas frecuentes
 
-*[Pregunta:]* **¿Y si no quiero hacer los proyectos?**
+*Pregunta:* **¿Y si no quiero hacer los proyectos?**
 
-*[Respuesta:]* No los hagas. Lo mismo con las tareas. Son un buen método para evaluar tu entendimiento de la materia y aprender como aplicar los conocimientos. Además se procurará que contengan material nuevo e interesante, por lo que sería interesante hacerlos. En el peor de los casos puedes intentarlos y no entregarlos.
+*Respuesta:* No los hagas. Lo mismo con las tareas. Son un buen método para evaluar tu entendimiento de la materia y aprender como aplicar los conocimientos. Además se procurará que contengan material nuevo e interesante, por lo que sería interesante hacerlos. En el peor de los casos puedes intentarlos y no entregarlos.
 
-*[Pregunta:]* **¿Por qué es obligatorio el último proyecto?**
+*Pregunta:* **¿Por qué es obligatorio el último proyecto?**
 
-*[Respuesta:]* En el último parcial hablaremos de diversos temas en los cuales se aplica la geometría riemanniana. El último proyecto servirá para integrar todo lo visto en clase y también será una oportunidad para que el alumno explore temas de su interés.
+*Respuesta:* En el último parcial hablaremos de diversos temas en los cuales se aplica la geometría riemanniana. El último proyecto servirá para integrar todo lo visto en clase y también será una oportunidad para que el alumno explore temas de su interés.
 
-*[Pregunta:]* **¿Se puede hacer el proyecto en equipo?**
+*Pregunta:* **¿Se puede hacer el proyecto en equipo?**
 
-*[Respuesta:]* No. Se puede apoyar en la solución de problemas, pero la entrega es individual.
+*Respuesta:* No. Se puede apoyar en la solución de problemas, pero la entrega es individual.
 
-*[Pregunta:]* **¿En qué formato prefieren que entregemos los proyectos y ejercicios?**
+*Pregunta:* **¿En qué formato prefieren que entregemos los proyectos y ejercicios?**
 
-*[Respuesta:]* Pueden entregarlos en el formato que quieran, a mano, a máquina, en computadora, tallado, etc... Sin embargo si preferimos que sea a computadora. Es un buen ejercicio para ustedes y es más legible para nosotros.
+*Respuesta:* Pueden entregarlos en el formato que quieran, a mano, a máquina, en computadora, tallado, etc... Sin embargo si preferimos que sea a computadora. Es un buen ejercicio para ustedes y es más legible para nosotros.
 
-*[Pregunta:]* **¿Hay asesorias fuera del horario de clase?**
+*Pregunta:* **¿Hay asesorias fuera del horario de clase?**
 
-*[Respuesta:]* Siempre y cuando lo soliciten, se podrá organizar una sesión fuera de los horarios oficiales. Mánden un correo a cualquiera de los profesores para solicitar una. De preferencia pregunten a sus compañeros para organizar una sesión con la mayor cantidad de alumnos posible.
+*Respuesta:* Siempre y cuando lo soliciten, se podrá organizar una sesión fuera de los horarios oficiales. Mánden un correo a cualquiera de los profesores para solicitar una. De preferencia pregunten a sus compañeros para organizar una sesión con la mayor cantidad de alumnos posible.
 
-*[Pregunta:]* **¿Qué días son las ayudantías?**
+*Pregunta:* **¿Qué días son las ayudantías?**
 
-*[Respuesta:]* Aunque oficialmente hay un ayudante a nosotros nos gustaría que todos pensaramos que en realidad hay dos profesores. No hay días oficiales de ayudantía. Los dos profesores se encargarán de dar teoría y práctica a lo largo del curso. Nos esforzaremos por dar un día de práctica a la semana. Así que hay que asistir todos los días.
+*Respuesta:* Aunque oficialmente hay un ayudante a nosotros nos gustaría que todos pensaramos que en realidad hay dos profesores. No hay días oficiales de ayudantía. Los dos profesores se encargarán de dar teoría y práctica a lo largo del curso. Nos esforzaremos por dar un día de práctica a la semana. Así que hay que asistir todos los días.
 
-*[Pregunta:]* **¿Tengo que asistir todos los días?**
+*Pregunta:* **¿Tengo que asistir todos los días?**
 
-*[Respuesta:]* De preferencia si. No es obligatorio, ni se tomará en cuenta para la calificación. Si un día se pierden de la clase habrá notas en la sección de [notas](notas.md).
+*Respuesta:* De preferencia si. No es obligatorio, ni se tomará en cuenta para la calificación. Si un día se pierden de la clase habrá notas en la sección de [notas](notas.md).

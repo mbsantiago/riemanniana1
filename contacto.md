@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
+title: Contacto
 ---
-
-# Contacto
 
 Para cualquier cosa manden un correo con sus dudas a cualquiera de los dos profesores:
 
-*   Santiago Martínez Balvanera: mbal@ciencias.unam.mx
-*   Román Ismael Contreras Morales: roman.astaroth@ciencias.unam.mx
+*   Santiago Martínez Balvanera: [mbal@ciencias.unam.mx](mailto:mbal@ciencias.unam.mx)
+*   Román Ismael Contreras Morales: [roman.astaroth@ciencias.unam.mx](mailto:roman.astaroth@ciencias.unam.mx)

@@ -1,4 +1,7 @@
-# Material adicional del curso
+---
+layout: page
+title: Materiales adicionales del curso
+---
 
 Aquí presentamos una lista de recursos que se pueden encontrar online y que pueden ser útiles para el curso.
 No todos los recursos son del mismo nivel, y algunos definitivamente no son para un primer curso de Geometría riemanniana, sin embargo los  mencionamos por que podrían ser útiles más adelante.
@@ -6,8 +9,8 @@ Así mismo, algunos artículos pueden servir de inspiración para los proyectos.
 
 ## Documentos y artículos
 
-- [Lectures on differential geometry](http://wwwf.imperial.ac.uk/~skdona/lecturenotes/GAUSS.PDF) by [Simon Donaldson](http://wwwf.imperial.ac.uk/~skdona/):
-- [Lectures on topology of manifolds](http://wwwf.imperial.ac.uk/~skdona/MANIFOLDS.PDF) by Simond Donaldson:
+- [Lectures on differential geometry](http://wwwf.imperial.ac.uk/~skdona/lecturenotes/GAUSS.PDF) de [Simon Donaldson](http://wwwf.imperial.ac.uk/~skdona/):
+- [Lectures on topology of manifolds](http://wwwf.imperial.ac.uk/~skdona/MANIFOLDS.PDF) de Simon Donaldson:
 - [Artículos expositorios](https://math.berkeley.edu/~alanw/240papers00.html) de los estudiantes de [Alan Weinstein](https://math.berkeley.edu/~alanw/) en una clase de geometría riemanniana.
 - [Topology through the centuries: Low dimensional manifolds](http://www.ams.org/journals/bull/2015-52-04/S0273-0979-2015-01507-7/S0273-0979-2015-01507-7.pdf) de John Milnor.
 

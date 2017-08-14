@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
+title: Notas
 ---
-
-# Notas
 
 ### Primer parcial
 
 *   Semana 1
     -   Variedades
-    -   [Analisis local de funciones y teorema de la función inversa](notas/parcial1/funcion_implicita)
+    -   [Analisis local de funciones y teorema de la función inversa]({{ site.url }}/assets/notas/parcial1/funcion_implicita.pdf)
     -   Grupo ortogonal
