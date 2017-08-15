@@ -1,0 +1,1445 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next muse use-motion" lang="default">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Geometria Riemanniana I" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Cálculo Tomemos un momento para recordar algunos de los contenidos de cálculo.">
+<meta name="keywords" content="Jekyll, NexT">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Teorema de la función inversa">
+<meta property="og:url" content="http://localhost:4000/notas/2017/08/13/Funcion_inversa/">
+<meta property="og:site_name" content="Geometria Riemanniana I">
+<meta property="og:description" content="Cálculo Tomemos un momento para recordar algunos de los contenidos de cálculo.">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Teorema de la función inversa">
+<meta name="twitter:description" content="Cálculo Tomemos un momento para recordar algunos de los contenidos de cálculo.">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/"/>
+
+
+
+
+
+  <title>Teorema de la función inversa</title>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-104540860-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Geometria Riemanniana I</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">F Ciencias UNAM 2018-I</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-principal">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            principal
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-entradas">
+          <a href="/entradas/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            entradas
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-informacion">
+          <a href="/informacion/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-info"></i> <br />
+            
+            informacion
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-notas">
+          <a href="/notas/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-clipboard"></i> <br />
+            
+            notas
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-ejercicios">
+          <a href="/ejercicios/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-pencil-square-o"></i> <br />
+            
+            ejercicios
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-bibliografia">
+          <a href="/bibliografia/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            bibliografia
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-contacto">
+          <a href="/contacto/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-address-book"></i> <br />
+            
+            contacto
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            busqueda
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Buscando ..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+<div id="posts" class="posts-expand">
+  
+  
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/notas/2017/08/13/Funcion_inversa/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Santiago Martínez y Román Contreras">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="assets/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geometria Riemanniana I">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            Teorema de la función inversa
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Publicado el</span>
+              
+              <time title="Entrada creada" itemprop="dateCreated datePublished" datetime="2017-08-13T00:00:00-05:00">
+                2017-08-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">en</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/notas" itemprop="url" rel="index">
+                    <span itemprop="name">notas</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/notas/2017/08/13/Funcion_inversa/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/notas/2017/08/13/Funcion_inversa/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+            
+                <div class="post-description">
+                    
+                </div>
+            
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="cálculo">Cálculo</h2>
+<p>Tomemos un momento para recordar algunos de los contenidos de cálculo.</p>
+
+<p>Sea $U$ un abierto de $\mathbb{R}^n$.</p>
+<div class="definicion">
+Una función $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$ es diferenciable en $p \in U$ si existe una
+transformación lineal $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ tal que la transformación afín $A: \mathbb{R}^n \rightarrow 
+\mathbb{R}^m$ dada por $A(q) = f(p) + T(q-p)$ es una buena aproximación a $f$ en $p$. Esto es
+$$
+    \lim_{h \to 0} \frac{\| f(p+h) - A(p+h) \| }{\| h \|} = 0
+$$
+Si existe tal transformación es única, por lo que podemos denotarla por $Df_p$.
+Decimos que $f$ es diferenciable, si es diferenciable en $p$ para todo $p \in U$.
+</div>
+
+<p>Esta transformación lineal provee la información de como la función transforma direcciones en el siguiente sentido:</p>
+
+<p>Sea $\alpha: I \rightarrow \mathbb{R}^n$ una trayectoria diferenciable con $\alpha(0) = p$. La trayectoria tiene un dirección infinitesimal
+en $p$ dada por el vector $v = \alpha’(0)$. Al transformar el espacio con $f$, la trayectoria se convierte en una nueva curva $\beta = 
+f \circ \alpha: I \rightarrow \mathbb{R}^m$. Esta nueva curva tiene una dirección infinitesimal en $f(p)$ dada por $\beta’(0)$.</p>
+
+<div class="proposicion">
+Si $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$ es diferenciable en $p \in U$ y $\alpha: I \rightarrow \mathbb{R}^n$
+es una curva diferenciable con $\alpha(0) = p$ entonces la curva $\beta = f \circ \alpha$ tiene como vector tangente en $0$
+a
+$$
+    \beta'(0) = Df_p(\alpha'(0))
+$$
+</div>
+
+<div class="prueba">
+Es una consecuencia de la regla de la cadena.
+</div>
+
+<p>De este modo es más claro el enunciado del teorema de la regla de la cadena, puesto que una curva $\alpha$ es deformada
+por una composición $f \circ g$ en pasos, cargando la dirección infinitesimal de $\alpha$ primero a través de la deformación
+de $g$ y después la de $f$.</p>
+
+<div class="teorema"> 
+**Regla de la cadena**
+Sea $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$ y $g: V \subset \mathbb{R}^m \rightarrow \mathbb{R}^q$. Si
+$f$ es diferenciable en $p \in U$ y $g$ es diferenciable en $f(p) \in V$, entonces $(g \circ f)$ es diferenciable en $p$
+y
+$$
+    D(g \circ f)_{p} = Dg_{f(p)} \circ Df_p
+$$
+</div>
+
+<p>La definición de derivada de una función multidimensional no deja en claro el método para calcularla. Sin embargo, en el caso en 
+que la función $f$ tenga derivadas parciales y sus derivadas parciales sean continuas, es decir que la
+función sea tipo $C^1$, entonces es fácil calcular la diferencial de $f$ en $p$. Simplemente está dada por</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+Df_p = \begin{pmatrix}
+    \frac{\partial f_1}{\partial x_1}(p) & \cdots & \frac{\partial f_1}{\partial x_n}(p) \\
+    \vdots & \ddots & \vdots \\
+    \frac{\partial f_m}{\partial x_1}(p) & \cdots & \frac{\partial f_m}{\partial x_n}(p)
+\end{pmatrix} = \frac{\partial (f_1,\cdots,f_m)}{\partial (x_1,\cdots,x_n)}(p) %]]></script>
+
+<p>La interepretación que hemos dado a la diferencial, como la representación del modo en que la función $f$ transforma las
+direcciones infinitesimales, ayuda a visualizar geométricamente ciertas situaciones. Por ejemplo, si $|Df_p(v)| \geq | v|$
+esto indica que la función estira el espacio en la dirección de $v$, o bien que si $\alpha$ es una curva con dirección
+infinitesimal $v$ en $p$, entonces $f$ estira a $\alpha$ al menos cerca de $p$. También parece sugerir que si $ Df_p(v)  = 0$, entonces $f$
+colapsa a un solo punto curvas que tienen a $v$ como dirección infinitesimal en $p$. Aunque en cierto modo el enunciado anterior
+es correcto a escalas infinitesimales, no resulta cierto como lo demuestra cualquier curva no constante con tangente cero en algún punto.</p>
+
+<p>Sin embargo, ofrece un poco de justificación e intuición para el siguiente importante teorema</p>
+
+<div class="teorema">
+**Teorema de la función inversa**
+Sea $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^n$ una función de tipo $C^1$, con $U$ abierto. Si $p$ es tal que
+$Df_p: \mathbb{R}^n \rightarrow \mathbb{R}^n$ es un isomorfismo lineal, entonces $f$ es localmente invertible en $p$. Esto es:
+existe una vecindad $p \in V \subset U$ abierta tal que $f\Big|_V$ es biyectiva y $f\Big|_V^{-1}$ es de tipo $C^1$.
+</div>
+
+<p>La demostración se puede ver en \cite{spivak_calculus, rudin}.</p>
+
+<p>Otra manera de enunciar el teorema de la función inversa es que si
+la diferencial es invertible en $p$ entonces $f$ es invertible cerca a $p$. Esto es, la diferencial, como aproximación lineal, es tan
+buena cerca a $p$ que le ``hereda’’ la propiedad de ser invertible.</p>
+
+<p>En términos prácticos, la condición de ser un isomorfismo se puede traducir en cualquiera de las siguientes condiciones:</p>
+
+<ol>
+  <li>$Df_p$ es inyectiva.</li>
+  <li>El núcleo de $Df_p$ es trivial.</li>
+  <li>$Det(Df_p) \neq 0$.</li>
+  <li>Los gradientes $\nabla f_1(p), \cdots, \nabla f_n(p)$ son linealmente independientes.</li>
+</ol>
+
+<h2 id="coordenadas-locales-y-representaciones-locales-de-funciones">Coordenadas locales y representaciones locales de funciones</h2>
+
+<p>Desde el punto de vista de la topología diferencial, cualesquiera dos sistemas coordenados son equivalentes, y para analizar el
+comportamiento de una función se permite elegir arbitrariamente un sistema coordenado.</p>
+
+<div class="definicion">
+Sea $f: M \rightarrow N$ una función diferenciable. Si $(U,\varphi_U)$ y $(V, \varphi_V)$ son cartas de $M$ y $N$ respectivamente
+tales que $p \in U$ y $f(p) \in V$ entonces la función $\tilde f: \varphi_U( U \cap f^{-1}V) \subset \mathbb{R}^n \rightarrow \varphi_V(V \cap f(U)) \subset \mathbb{R}^m$
+$$
+    \tilde f = \varphi_V \circ f \circ \varphi_U^{-1}
+$$
+es llamada una representación coordenada de $f$ cerca de $p$.
+</div>
+
+<p>Esta idea la podemos aplicar a las funciones $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$, puesto que $\mathbb{R}^n$ y $\mathbb{R}^m$ son
+variedades. Y dado que toda variedad es localmente equivalente a $\mathbb{R}^n$ basta con estudiar este caso. Así la pregunta se
+convierte en la siguiente: ¿Qué coordenadas son útiles para analizar una función diferenciable? ¿Cuantos comportamientos distintos puede
+tener una función diferenciable si se permiten cambios de coordenadas?</p>
+
+<p>El teorema de la función inversa ofrece la respuesta en el caso en el cual la diferencial es invertible.</p>
+
+<div class="proposicion">
+Si $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^n$ es $C^1$ y en $p \in U$ la diferencial $Df_p$ es invertible, entonces existe una representación coordenada
+de $f$ cerca de $p$ tal que
+$$
+    \tilde f(x) = x
+$$
+</div>
+
+<div class="prueba">
+Demostrar que existe semejante representación coordenada exige encontrar las cartas para las que se da dicha representación.
+
+Por el teorema de la función inversa existe $V \subset U$ abierto tal que $f|_V$ es invertible con inversa $C^1$. Para simplificar
+la notación llamemos $g=f|_V$. Notemos que $g: V \rightarrow f(V)$
+es una parametrización o bien $g^{-1}: f(V) \rightarrow V$ es una carta. También $(V, Id)$ es un carta, donde $Id$ es la función
+identidad ($Id(x) = x$). Con estas dos cartas, $(V,Id)$ y $(f(V), g^{-1})$, se obtiene una representación coordenada de $f$ dada
+por
+$$
+    \tilde f = g^{-1} \circ f \circ Id^{-1} = (f|_V)^{-1} \circ f = Id
+$$
+y luego $\tilde f(x) = x$.
+</div>
+
+<p>El teorema anterior nos dice que todo par de funciones con diferenciales invertibles son localmente equivalente (al menos
+bajo cambio de coordenadas). La situación cuando la diferencial no es invertible es mucho más interesante y complicada. Los puntos donde
+la función tiene diferencial no invertible, y de modo más general no tiene rango máximo, son llamados singularidades o puntos singulares. El estudio y la
+clasificación de dichas singularidades forman una rama amplia y fértil a la cual no entraremos en detalle. Para el interesado le sugerimos
+el libro \cite{stable_mappings}.</p>
+
+<div class="proposicion">
+Sea $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$ una función de tipo $C^1$. Decimos que $p$ es un punto regular
+si $Df_p$ tiene rango máximo.
+</div>
+
+<p>Lo que hemos probado hasta ahora es que si $p$ es un punto regular de una función $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ con $n = m$
+entonces tiene una representación sencilla. Pero ¿qué ocurre en los otros casos, cuando las dimensiones son distintas?</p>
+
+<p>Podemos inspirarnos un poco en el teorema de la función inversa y suponer que la diferencial $Df_p$ es un buen sustituto de la función
+$f$ cerca a $p$. Dado que $Df_p: \mathbb{R}^n \rightarrow \mathbb{R}^m$ es una transformación lineal de rango máximo esto quiere decir
+que</p>
+
+<ol>
+  <li>
+    <p>Si $n &gt; m$ entonces $Df_p$ es suprayectiva y existen bases $\left\lbrace e_1,\cdots, e_n \right\rbrace$ y $\left\lbrace l_1, \cdots, l_m \right\rbrace$ de $\mathbb{R}^n$ y $\mathbb{R}^m$, respectivamente, tales que</p>
+
+    <script type="math/tex; mode=display">% <![CDATA[
+Df_p(e_i) = \begin{cases} l_i & i \leq m \\
+         0 & i > m
+     \end{cases} %]]></script>
+  </li>
+  <li>
+    <p>Si $n &lt; m$ entonces $Df_p$ es inyectiva y existen bases $\left\lbrace e_1, \cdots, e_n \right\rbrace$ y $\left\lbrace l_1, \cdots, l_m \right\rbrace$ de $\mathbb{R}^n$ y $\mathbb{R}^m$, tales que</p>
+
+    <script type="math/tex; mode=display">Df_p(e_i) = l_i</script>
+  </li>
+</ol>
+
+<p>Un cambio de bases es también un cambio de coordenadas de tipo lineal.</p>
+<div class="teorema">
+**Teorema de la inmersión**
+Sea $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$, $U$ abierto, una función de tipo $C^1$ con $n &lt; m$. Si $p \in U$
+es un punto regular de $f$, es decir $Df_p$ es de rango máximo (inyectiva), entonces existe una representación coordenada
+de $f$ cerca de $p$ tal que
+$$
+    \tilde f(x_1,\cdots,x_n) = (x_1,\cdots, x_n, 0, \cdots, 0)
+$$
+</div>
+
+<div class="prueba">
+De nuevo debemos de encontrar cartas cerca de $p$ y $f(p)$ para las cuales $f$ tiene la representación mencionada.
+
+En primer lugar $Df_p$ tiene rango máximo, o equivalentemente la matriz
+$$
+    Df_p = \begin{pmatrix}
+        \frac{\partial f_1}{\partial x_1}(p) &amp; \cdots &amp; \frac{\partial f_1}{\partial x_n}(p) \\
+        \vdots &amp; \ddots &amp; \vdots \\
+        \frac{\partial f_m}{\partial x_1}(p) &amp; \cdots &amp; \frac{\partial f_m}{\partial x_n}(p)
+    \end{pmatrix}
+$$
+tiene rango máximo. Esto implica que hay un subconjunto de índices $\left\lbrace i_1, \cdots, i_n \right\rbrace \subset \left\lbrace 1, \cdots, m \right\rbrace$ tales que la matriz
+cuadrada
+$$
+    \frac{\partial (f_{i_1},\cdots,f_{i_n})}{\partial (x_1,\cdots,x_n)}
+$$
+tiene determinante no nulo.
+
+Podemos suponer sin perdida de generalidad que $i_j = j$ (es decir $f_{i_1} = f_1, \cdots, f_{i_n} = f_n$). De no ser así,
+podemos modificar a $f$ con una tranformación lineal invertible adecuada $L$ en la función $g = L \circ f$ que sí satisface
+que $i_j = j$, y además se puede probar que si el teorema es cierto para $g$ entonces es cierto para $f$ [Ejercicio: Encontrar $L$
+y justificar la última afirmación]. 
+
+Ahora consideremos la siguiente función $h: U \times \mathbb{R}^{m-n} \rightarrow \mathbb{R}^m$ dada por
+$$
+    h(x,y) = f(x) + (0,y) 
+$$
+
+Notemos que esta función satisface que $h(x,0) = f(x)$ y además
+$$
+    Dh_{(p,0)} = \begin{pmatrix}
+        \frac{\partial (f_1,\cdots,f_n)}{\partial (x_1,\cdots,x_n)}(p) &amp; 0 \\
+        \frac{\partial (f_{n+1}, \cdots, f_m)}{\partial (x_1,\cdots,x_n)}(p) &amp; Id_{m-n}
+    \end{pmatrix}
+$$
+
+Esta matriz tiene como determinante $Det(Dh_{(p,0)}) = Det\left(\frac{\partial (f_1,\cdot, f_n)}{\partial (x_1,\cdots, x_n)}(p)\right)$ 
+[Ejercicio] el cual es no nulo por (\ref{eq:3}). Esto es, la función $h$ es regular en el punto $p$ por lo que existe una vecindad $W$ de $(p,0)$
+tal que $h$ es un difeomorfismo en $W$.
+
+La función transforma un pequeño abierto de $\mathbb{R}^m$, que contiene $(p,0)$ a una vecindad de $h(p,0) = f(p)$. Luego podemos
+usar $(h(W), h^{-1})$ como una carta alrededor de $f(p)$. Esta carta alrededor de la imagen, junto con la carta trivial $(U,Id)$
+alrededor de $p$ dan lugar a la representación coordenada $\tilde f = h^{-1} \circ f \circ Id$. Sea $x \in U$ suficientemente
+cercano a $p$ [Exercicio: ¿Qué tanto es suficiente?] y notemos
+que $h(x,0) = f(x)$ por lo que $\tilde f = h^{-1}(f(x)) = (x,0)$.
+</div>
+
+<p>Y para el caso de $n &gt; m$:</p>
+<div class="teorema">
+**Teorema de la sumersión**
+Sea $f: U \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$, $U$ abierto, una función de tipo $C^1$ con $m &lt; n$. Si $p \in U$
+es un punto regular de $f$, es decir $Df_p$ es de rango máximo (suprayectiva), entonces existe una representación coordenada
+de $f$ cerca de $p$ tal que
+$$
+    \tilde f(x_1,\cdots,x_n) = (x_1,\cdots, x_m)
+$$
+</div>
+
+<div class="prueba">
+En este caso el hecho de que la matriz
+$$
+    \frac{\partial (f_1,\cdots,f_m)}{\partial (x_1,\cdots,x_n)}
+$$
+tenga rango máximo implica que existe un subconjunto de índices $\left\lbrace i_1,\cdots, i_m \right\rbrace \subset \left\lbrace 1,\cdots, n \right\rbrace$
+tales que
+$$
+    Det\left(  \frac{\partial (f_1,\cdots,f_m)}{\partial (x_{i_1},\cdots,x_{i_m})} \right) \neq 0
+$$
+
+De nuevo, podemos suponer sin perdida de generalidad que $i_1=1, \cdots, i_m = m$ [Ejercicio: En este caso hay que encontrar $L$
+tal que $g = f \circ L$ tiene las propiedades deseadas, y verificar que si el teorema es válido para $g$ entonces lo es para $f$].
+Podemos también asumir que $p = 0$ [Ejercicio: ¿Por qué?].
+
+Sea $h: \mathbb{R}^m \times \mathbb{R}^{n-m} \cap U \rightarrow \mathbb{R}^m \times \mathbb{R}^{m-n}$ la función dada por
+$$
+    h(x,y) = (f(x,y),y) = (f(x,y),0) + (0, y)
+$$
+
+Notemos que $h(0) = (f(0), 0)$ y que la diferecial de $h$ en $0$ está dada por
+$$
+    Dh_0 = \begin{pmatrix}
+        \frac{\partial (f_1,\cdots,f_m)}{\partial (x_1,\cdots,x_m)}(0) &amp; \frac{\partial (f_1,\cdots,f_m)}{\partial (x_{m+1},\cdots,x_n)}(0) \\
+        0 &amp; Id_{m-n}
+    \end{pmatrix}
+$$
+que tiene determinante $Det\left( Dh_0 \right) = Det\left( \frac{\partial (f_1,\cdots,f_m)}{\partial (x_1,\cdots,x_m)} \right) \neq 0$.
+
+Por el teorema de la función inversa existe una vecindad $W \subset U$ tal que $0 \in W$ y $h$ es un difeomorfismo en $W$. Podemos
+usar $(W, h)$ como una carta alrededor de $0$ y la carta trivial alrededor de $f(0)$ para obtener una representación coordenada de
+$f$ dada por
+$$
+    \tilde f = Id \circ f \circ h^{-1}
+$$
+Si $(x,y) \in h(W)$ entonces quiere decir que $(x,y) = (f(z,y),y)$ para algún $(z,y) \in W$. Luego $x = f(z,y)$ y $(z,y) = h^{-1}(x,y)$, de donde se sigue que $\tilde(x,y) = f \circ h^{-1}(x,y) = x$.
+</div>
+
+<div class="ejercicio">
+Demuestra el teorema de la función implícita usando el teorema de la sumersión:
+Sea $f: U \subset \mathbb{R}^n \times \mathbb{R}^m \rightarrow \mathbb{R}^n$ una función de tipo $C^1$. Si $p \in U$ es tal que
+$Det\left(\frac{\partial (f_1,\cdots,f_n)}{\partial (x_1,\cdots,x_n)}\right) \neq 0$ y $f(p) = 0$ entonces existe una función $g:V \subset \mathbb{R}^n \rightarrow \mathbb{R}^m$ de tipo $C^1$, con $V$ abierto, tal que
+$$
+    f(x,g(x)) = 0
+$$
+</div>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+        <div class="post-nav" id="post-nav-id">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/notas/2017/08/13/Ejercicios-Primera-Semana/" rel="next" title="Ejercicios semana 1">
+                <i class="fa fa-chevron-left"></i> Ejercicios semana 1
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+      
+
+      
+    </footer>
+  </article>
+
+  <div class="post-spread">
+    
+  </div>
+</div>
+
+
+          </div>
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        
+        
+        
+
+
+
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Contenidos
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Info
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/assets/images/avatar.gif"
+               alt="Santiago Martínez y Román Contreras" />
+          <p class="site-author-name" itemprop="name">Santiago Martínez y Román Contreras</p>
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">entradas</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categorías</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+        
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.fciencias.unam.mx/" title="Facultad de Ciencias" target="_blank">Facultad de Ciencias</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+
+
+
+
+            
+              <div class="post-toc-content">
+    <ol class=nav>
+      <li class="nav-item nav-level-2"> <a class="nav-link" href="#cálculo"> <span class="nav-number">1</span> <span class="nav-text">Cálculo</span> </a> <ol class="nav-child"> <ol class="nav-child"> <ol class="nav-child"> <ol class="nav-child"> </li></ol> </li></ol> </li></ol> </li></ol> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#coordenadas-locales-y-representaciones-locales-de-funciones"> <span class="nav-number">2</span> <span class="nav-text">Coordenadas locales y representaciones locales de funciones</span> </a> <ol class="nav-child"> <ol class="nav-child"> <ol class="nav-child"> <ol class="nav-child">
+    </ol>
+  </div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-book"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Santiago Martínez y Román Contreras</span>
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+    
+      <script id="dsq-count-scr" src="https://mbsantiago-github-io-riemanniana1.disqus.com/count.js" async></script>
+    
+
+    
+      
+      <script type="text/javascript">
+          var disqus_config = function () {
+              this.page.url = 'http://localhost:4000/notas/2017/08/13/Funcion_inversa/';
+              this.page.identifier = '/notas/2017/08/13/Funcion_inversa/';
+              this.page.title = 'Teorema de la función inversa';
+          };
+          var d = document, s = d.createElement('script');
+          s.src = 'https://mbsantiago-github-io-riemanniana1.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', '' + +new Date());
+          (d.head || d.body).appendChild(s);
+      </script>
+      
+    
+
+  
+
+
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+  
+  
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
+

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ejercicios semana 1
-date: 13 Agosto 2017
+date: 13/08/2017
+category: notas
 ---
 
 Aqui están los ejercicios de la primer semana, finalmente.

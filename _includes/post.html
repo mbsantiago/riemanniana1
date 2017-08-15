@@ -1,0 +1,10 @@
+
+<div id="posts" class="posts-expand">
+  {% assign post = page %}
+  {% include _macro/post.html %}
+  <div class="post-spread">
+    {% if site.add_this_id %}
+      {% include _partials/share/add-this.html %}
+    {% endif %}
+  </div>
+</div>
