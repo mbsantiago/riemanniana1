@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/bibliografia/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/adicional/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contacto/</loc>
 </url>
 <url>
@@ -41,6 +44,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/notas/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/proyectos/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/</loc>

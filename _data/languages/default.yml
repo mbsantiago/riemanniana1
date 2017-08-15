@@ -1,6 +1,6 @@
 title:
-  archive: Archive
-  category: Category
+  archive: Entradas
+  category: Categoría
   tag: Tag
   schedule: Schedule
 
@@ -8,11 +8,11 @@ author: Autor
 
 menu:
   home: principal
-  archives: Archives
-  categories: Categories
+  archives: Entradas
+  categories: Categorías
   tags: Tags
   about: About
-  search: Search
+  search: Búsqueda
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404

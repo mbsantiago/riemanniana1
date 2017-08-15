@@ -8,12 +8,12 @@ Aquí está toda la información que concierne al método de evaluación para el
 *   Hay 4 parciales:
     -   Cada parcial consta de aproximadamente 4 semanas.
     -   Al final de cada parcial habrá un examen.
-*   Hay 4 [proyectos parciales](proyectos.md):
+*   Hay 4 [proyectos parciales]({{ site.baseurl }}/proyectos):
     -   Los proyectos son opcionales menos el último parcial.
     -   De ser entregado a tiempo (un día antes del examen) el alumno tiene derecho a examen parcial corto (la mitad de los incisos).
     -   Si es entregado a tiempo la calificación del parcial es 50% examen y 50% el proyecto.
     -   A lo largo del parcial se ofrece retroalimentación del proyecto en cuanto el alumno lo demande.
-*   Hay [ejercicios](ejercicios.md):
+*   Hay [ejercicios]({{ site.baseurl }}/ejercicios):
     -   Son opcionales.
     -   Cada semana habrá una tanda de ejercicios que se irán subiendo a la página, y se mencionarán en clase.
     -   Si al final del curso se entregaron la mitad o más de los ejercicios correctamente resueltos, se sumara un punto extra sobre la calificación final.
@@ -57,4 +57,4 @@ La calificación final es el promedio de los cuatro parciales (más puntos extra
 
 *Pregunta:* **¿Tengo que asistir todos los días?**
 
-*Respuesta:* De preferencia si. No es obligatorio, ni se tomará en cuenta para la calificación. Si un día se pierden de la clase habrá notas en la sección de [notas](notas.md).
+*Respuesta:* De preferencia si. No es obligatorio, ni se tomará en cuenta para la calificación. Si un día se pierden de la clase habrá notas en la sección de [notas]({{ site.baseurl }}/notas).

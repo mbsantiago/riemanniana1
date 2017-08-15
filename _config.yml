@@ -121,6 +121,7 @@ menu:
   informacion: /informacion/
   notas: /notas/
   ejercicios: /ejercicios/
+  proyectos: /proyectos/
   bibliografia: /bibliografia/
   adicional: /adicional/
   contacto: /contacto/
@@ -140,6 +141,7 @@ menu_icons:
   informacion: info
   notas: clipboard
   ejercicios: pencil-square-o
+  proyectos: briefcase
   bibliografia: book
   contacto: address-book
   adicional: folder-open
