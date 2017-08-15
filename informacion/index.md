@@ -19,6 +19,8 @@ Aquí está toda la información que concierne al método de evaluación para el
     -   Si al final del curso se entregaron la mitad o más de los ejercicios correctamente resueltos, se sumara un punto extra sobre la calificación final.
     -   Los ejercicios del parcial correspondiente se entregan a más tardar el día del examen parcial.
     -   Se puede pedir retroalimentación a las soluciones, con la posibilidad de reentregar el ejercicio corregido, hasta la fecha límite de entrega.
+    -   Hay ejercicios que son un poco más difíciles que el resto, estos están marcados con un asterisco. Estos ejercicios cuentan doble
+si se entregan, pero solo contribuyen en 1 a la cuenta total de ejercicios. Por ejemplo, si al final del curso hubieron 10 ejercicios en total, de los cuales uno tiene asterisco, con entregar 5 ejercicios normales, o 3 ejercicios normales y uno con asterisco, se considerará que se entregó la mitad, y se tiene derecho al punto extra.
 
 La calificación final es el promedio de los cuatro parciales (más puntos extras). En cuanto a las reposiciones y finales:
 
