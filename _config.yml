@@ -122,6 +122,7 @@ menu:
   notas: /notas/
   ejercicios: /ejercicios/
   bibliografia: /bibliografia/
+  adicional: /adicional/
   contacto: /contacto/
 
 
@@ -141,6 +142,7 @@ menu_icons:
   ejercicios: pencil-square-o
   bibliografia: book
   contacto: address-book
+  adicional: folder-open
 
 
 
@@ -369,7 +371,7 @@ google_analytics: UA-104540860-1
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
