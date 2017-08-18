@@ -11,7 +11,8 @@ author: Santiago Martínez y Román Contreras
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: default
 date_format: '%Y-%m-%d'
-
+future: true
+encoding: UTF-8
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
@@ -67,6 +68,8 @@ feed:
 plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
+ - kramdown
+ - jekyll-paginate
  - jekyll-sitemap
  - jekyll-feed
 
