@@ -1,1 +1,42 @@
 // Custom styles.
+
+.teorema, .definicion, .prueba, .proposicion, .ejercicio, .ejemplo, .lema {
+    border-radius: 5px;
+    background-color: #f1f6f5;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.teorema:before {
+    content: "Teorema: ";
+    font-weight: bold;
+}
+
+.definicion:before {
+    content: "Definicion: ";
+    font-weight: bold;
+}
+
+.prueba:before {
+    content: "Demostracion: ";
+    font-weight: bold;
+}
+
+.prueba:after {
+    content: 'QED'
+}
+
+.ejercicio:before {
+    content: "Ejercicio: ";
+    font-weight: bold;
+}
+
+.ejemplo:before {
+    content: "Ejemplo: ";
+    font-weight: bold;
+}
+
+.proposicion:before {
+    content: "Proposición: ";
+    font-weight: bold;
+}

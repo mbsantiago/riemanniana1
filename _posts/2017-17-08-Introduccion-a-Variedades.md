@@ -8,7 +8,7 @@ date: 17-08-17
 # Introducción
 
 Las variedades surgen de muchas maneras. En análisis complejo las variedades aparecen como el espacio en el que están
-``naturalmente'' definidas ciertas funciones, en ecuaciones diferenciales ocurren como espacios de configuraciones, en mecánica
+"naturalmente" definidas ciertas funciones, en ecuaciones diferenciales ocurren como espacios de configuraciones, en mecánica
 emergen de las restricciones holonómicas del movimiento. Sin embargo hay una visión que en cierto modo subyace todas las anteriores
 y que además tiene la ventaja de ser filosóficamente interesante.
 
@@ -21,7 +21,7 @@ un hipotético pasado previo a los mapas y la navegación. Y para hacer el escen
 se han desarrollado las herramientas del cálculo. En tal situación lo natural sería hacer lo que cualquier cartógrafo amateur haría,
 tomar un pedazo de hilo, o un palo, como estándar, y empezar a dibujar una cuadrícula alrededor de uno mismo. O quizá ni siquiera habría
 necesidad de cuantificar el espacio de un modo rígido, a veces un obstáculo o algún rasgo particular del espacio nos obligaría a tomar
-coordenadas ``curvas''. Sin embargo el mero hecho de asignarle a cada punto del espacio n números o coordenadas (la idea vaga a la cual aludió
+coordenadas "curvas". Sin embargo el mero hecho de asignarle a cada punto del espacio n números o coordenadas (la idea vaga a la cual aludió
 Bernhard Riemman) resulta ya una idea extravagante y poderosa. Así los objetos y los fenómenos físicos pueden ser descritos con
 funciones, superficies, y demás objetos analizables con el cálculo.
 
@@ -47,7 +47,7 @@ Todo comienza con poner coordenadas:
     Donde $V$ es un abierto y $\varphi$ es un función continua con inversa continua. Dicho de otro modo
     $\varphi$ es un homeomorfismo. Diremos que $(U,\varphi_U)$ es una carta n-dimensional de $X$ si satisface las propiedades
     mencionadas. Las funciones inversas $\varphi_U^{-1}$ son llamadas parametrizaciones puesto que se piensa que se está
-    ``parametrizando'' puntos de $X$ con $n$ números distintos.
+    "parametrizando" puntos de $X$ con $n$ números distintos.
 </div> 
 
 Al tener una carta de una porción del espacio en cuestión, es posible comenzar con el análisis local usando las herramientas del cálculo.
@@ -98,7 +98,7 @@ se puede usar las herramientas de cálculo, al menos de modo local (en pequeños
 Si definieramos una variedad como un espacio topológico en el cual es posible definir un atlas surgiría una sutileza fundacional. Considerar dos
 variedades distintas únicamente por el hecho de que posiblemente un atlas tenga una
 carta más, sería tomar una noción de igualdad demasiado restrictiva. No es muy relevante el hecho de que, después de haber cubierto el
-espacio con mapas compatibles, se pueda encontrar una nueva carta, puesto que, en cierto modo, la ``estructura diferenciable'' ya
+espacio con mapas compatibles, se pueda encontrar una nueva carta, puesto que, en cierto modo, la "estructura diferenciable" ya
 está determinada por las primeras cartas. Para formalizar esta idea introducimos la siguiente noción:
 
 <div class='definicion'>
@@ -129,7 +129,7 @@ con un atlas maximal.
 # Funciones diferenciables
 
 Ahora que hemos definido formalmente el tipo de espacio en el que trabajaremos podemos empezar a definir los objetos dentro del
-espacio que serán relevantes a nuestro estudio. Del mismo modo en que exigimos ``diferenciablilidad'' en el espacio, ahora pediremos
+espacio que serán relevantes a nuestro estudio. Del mismo modo en que exigimos "diferenciablilidad" en el espacio, ahora pediremos
 que las funciones de interes sean diferenciables.
 
 <div class='definicion'>
@@ -202,7 +202,7 @@ Puesto que $\mathbb{R}^n$ es una variedad (como se verá en la sección de ejemp
 
 Finalmente, es de gran importancia, ya que se ha definido el concepto básico de la teoría en cuestión (que por el momento es la topología
 diferencial), definir también cual es la noción de equivalencia que se va a utilizar. O dicho de otro modo, se tiene que responder a la
-pregunta: para un topólogo diferencial, ¿qué quiere decir que dos objetos sean ``iguales'' o ``equivalentes''?
+pregunta: para un topólogo diferencial, ¿qué quiere decir que dos objetos sean "iguales" o "equivalentes"?
 
 Es filosóficamente equivalente al tratamiento que dan los fundacionistas de las matemáticas a los números. Para ellos, un número no un
 conjunto en particular, sino una propiedad que comparten todos los conjuntos biyectables entre si, y de hecho definida por esta noción
