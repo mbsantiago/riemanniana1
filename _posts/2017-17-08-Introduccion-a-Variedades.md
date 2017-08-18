@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a variedades
-date: 17/08/17
+date: 17/08/2017
 category: notas
 ---
 [versión pdf]({{ site.baseurl }}/assets/notas/parcial1/introduccion_a_variedades.pdf) 
