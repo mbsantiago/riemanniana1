@@ -20,7 +20,7 @@ $jekyll-config-map : (
       {% continue %}
     {% endif %}
     {% assign names = names | push: name %}
-    {% assign values = values | push: site[name] %}
+    {% assign values = values | push: site.name %}
     {% assign levels = levels | push: 0 %}
   {% endfor %}
 
