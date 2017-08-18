@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Introducción a variedades
-date: 17-08-17
+date: 17/08/17
+category: notas
 ---
 [versión pdf]({{ site.baseurl }}/assets/notas/parcial1/introduccion_a_variedades.pdf) 
 
@@ -299,7 +300,7 @@ Iremos desarrollando muchos ejemplos a lo largo del curso pero aquí hacemos exp
             para encontrar algunas:
 
 
-            <img src='{{ site.baseurl }}/assets/imagenes/mapas.jpg' alt='mapas' style='width:600px;height:400px;'>
+            <img src='{{ site.baseurl }}/assets/imagenes/mapas.jpg' alt='mapas' style='width:600px;height:400px;'/>
 
 
             Un par de cartas que cubren a $\mathbb{S}^n$ hacen uso de la proyección estereográfica. La proyección estereográfica de
