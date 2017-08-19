@@ -24,3 +24,6 @@ Así mismo, algunos artículos pueden servir de inspiración para los proyectos.
  De particular relevancia para el curso son los siguientes videos:
    - [Differential topology lectures by John Milnor](https://www.simonsfoundation.org/science_lives_video/professor-john-w-milnor/)
    - [Nash on the embedding problem](https://www.simonsfoundation.org/science_lives_video/john-nash-2/?chapter=21)
+- [Canal de la Royal Institution](https://www.youtube.com/user/TheRoyalInstitution):
+ Canal con pláticas y videos divulgativos de una gran cantidad de temas.
+ En particular, véase [The Extraordinary Theorems of John Nash - with Cédric Villani](https://www.youtube.com/watch?v=iHKa8F-RsEM).
