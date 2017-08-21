@@ -325,7 +325,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
 
