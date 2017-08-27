@@ -35,3 +35,5 @@ Así mismo, algunos artículos pueden servir de inspiración para los proyectos.
   - [Topología Diferencial (Santiago López de Medrano)](https://www.youtube.com/watch?v=xMyJIG6B4ik)
 
 - [Canal del Instituto de matemáticas](https://www.youtube.com/user/VideosIMUNAM)
+
+- [Pits, peaks and passes: A lecture on critical point theory](http://av.cah.utexas.edu/index.php?title=Category:Pits,_Peaks,_and_Passes:_A_Lecture_on_Critical_Point_Theory,_Parts_1_and_2) : Clase impartida por Marston Morse sobre teoría de puntos críticos, actualmente conocida como teoría de Morse. [Parte 1](http://av.cah.utexas.edu/index.php?title=Math:E_math_01268) y [Parte 2](http://av.cah.utexas.edu/index.php?title=Math:E_math_01269)
