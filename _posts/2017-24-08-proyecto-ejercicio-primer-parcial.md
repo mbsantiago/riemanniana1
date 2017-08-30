@@ -22,11 +22,11 @@ Recuerden que definimos una subvariedad encajada de $\mathbb{R}^n$ de la siguien
     $$
         \varphi(A \cap U) \subset \mathbb{R}^m \times {0}
     $$
-    esto es, salvo cambio de coordenadas, el pedazo de $A$ en $U$ es un subplano de dimensión $m$ en $\mathbb{R}^n$.
+    esto es, salvo cambio de coordenadas, el pedazo de $A$ en $U$ es un pedazo de subplano de dimensión $m$ en $\mathbb{R}^n$.
 </div>
 
 <div class='ejercicio'>
-    Demuestra que si $A$ es una subvariedad encajada, entonces $A$ es una variedad como lo definimos en las <a href="{{ site.baseurl }}/assets/notas/parcial1/introduccion_a_variedades.pdf"> notas de variedades </a>. Hay de dar cartas y demostrar que los cambios de coordenada son diferenciables.
+    Demuestra que si $A$ es una subvariedad encajada, entonces $A$ es una variedad como lo definimos en las <a href="{{ site.baseurl }}/assets/notas/parcial1/introduccion_a_variedades.pdf"> notas de variedades </a>. Es preciso dar cartas y demostrar que los cambios de coordenada son diferenciables.
 </div>
 
 <div class='ejercicio'>

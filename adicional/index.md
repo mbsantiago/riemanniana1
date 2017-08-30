@@ -1,5 +1,5 @@
 ---
-title: Material Extra
+title: Material adicional
 layout: page
 ---
 
@@ -27,3 +27,13 @@ Así mismo, algunos artículos pueden servir de inspiración para los proyectos.
 - [Canal de la Royal Institution](https://www.youtube.com/user/TheRoyalInstitution):
  Canal con pláticas y videos divulgativos de una gran cantidad de temas.
  En particular, véase [The Extraordinary Theorems of John Nash - with Cédric Villani](https://www.youtube.com/watch?v=iHKa8F-RsEM).
+
+- [Canal de la Facultad de Ciencias](https://www.youtube.com/channel/UCAvg7yOE4-25TPDUeKFUztA)
+
+- [Canal de Efrain Vega](https://www.youtube.com/user/efveglan)
+  - [Algunos hechos interesantes de las curvas en el espacio (Ricardo Uribe-Vargas)](https://www.youtube.com/watch?v=3TZCa4pN8V8)
+  - [Topología Diferencial (Santiago López de Medrano)](https://www.youtube.com/watch?v=xMyJIG6B4ik)
+
+- [Canal del Instituto de matemáticas](https://www.youtube.com/user/VideosIMUNAM)
+
+- [Pits, peaks and passes: A lecture on critical point theory](http://av.cah.utexas.edu/index.php?title=Category:Pits,_Peaks,_and_Passes:_A_Lecture_on_Critical_Point_Theory,_Parts_1_and_2) : Clase impartida por Marston Morse sobre teoría de puntos críticos, actualmente conocida como teoría de Morse. [Parte 1](http://av.cah.utexas.edu/index.php?title=Math:E_math_01268) y [Parte 2](http://av.cah.utexas.edu/index.php?title=Math:E_math_01269)
