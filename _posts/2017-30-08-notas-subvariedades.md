@@ -109,12 +109,13 @@ depende de la representación elegida.
     $$
 
     Para que esto funcione hay que cuadrar los dominios. Lo importante es que $y$ cae dentro del dominio en
-    el cual la ecuación anterior es válida [Ejercicio: ¿Por qué?]. Simplifiquemos un poco la notación: $x = \varphi_V(f(q))$ y $x' = \varphi_{V'}(f(q))$, por lo que $\bar f(y') = x'$ y $\tilde f(y) = x$. 
+    el cual la ecuación anterior es válida [Ejercicio: ¿Por qué?]. 
+
+    Simplifiquemos un poco la notación: $x = \varphi_V(f(q))$ y $x' = \varphi_{V'}(f(q))$, por lo que $\bar f(y') = x'$ y $\tilde f(y) = x$. 
     
-    <img src="{{ site.basurl }}/assets/imagenes/cambios_cords.png"/>
+    <img src="{{ site.baseurl }}/assets/imagenes/cambios_cords.png"/>
 
-
-Dado que los cambios de coordenadas son difeomorfismos en particular
+    Dado que los cambios de coordenadas son difeomorfismos en particular
     sus diferenciales son inyectivas en todo punto, y por la regla de la cadena
     $$
         D \tilde f_y = D(\Psi_{V'}^V)_{x'} \circ D\bar f_{y'} \circ D(\Psi_{U}^{U'})_{y}
