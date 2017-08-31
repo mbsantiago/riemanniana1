@@ -53,61 +53,7 @@ curva que se autointersecta, pero que siempre tiene vector tangente no nulo, es 
 
 Otro ejemplo un poco más extraño lo brinda la botella de klein
 
-<div id='klein'></div>
-<script>
-var klein_data = (function () {
-    var json = null;
-    $.ajax({
-        'async': false,
-        'global': false,
-        'url': "{{ site.basemap}}/assets/data/klein_data.json",
-        'dataType': "json",
-        'success': function (data) {
-            json = data;
-        }
-    });
-    return json;
-})(); 
-
-var z_data = klein_data.klein.z;
-var x_data = klein_data.klein.x;
-var y_data = klein_data.klein.y;
-
-var data = [{
-           z: z_data,
-           x: x_data,
-           y: y_data,
-           type: 'surface',
-           showscale: false,
-           opacity: .9
-        }];
-  
-var layout = {
-  title: 'Botella de Klein',
-  autosize: false,
-  width: 500,
-  height: 500,
-  margin: {
-    l: 65,
-    r: 50,
-    b: 65,
-    t: 90,
-  },
-  scene:{
-      xaxis:{
-        visible:false
-      },
-      yaxis:{
-        visible:false
-      },
-      zaxis:{
-        visible:false
-      }
-  }
-};
-
-Plotly.newPlot('klein', data, layout);
-</script>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~mbsantiago/173.embed" height="525" width="100%"></iframe>
 
 que se autointersecta en un círculo. Cerca de los puntos de autointersección la superficie se ve como dos planos intersectandose en
 una linea.
