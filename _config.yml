@@ -123,7 +123,7 @@ menu:
   entradas: /entradas/
   informacion: /informacion/
   notas: /notas/
-  ejercicios: /ejercicios/
+  ejercicios y exámenes: /ejercicios/
   proyectos: /proyectos/
   bibliografia: /bibliografia/
   adicional: /adicional/
@@ -143,7 +143,7 @@ menu_icons:
   entradas: archive
   informacion: info
   notas: clipboard
-  ejercicios: pencil-square-o
+  ejercicios y exámenes: pencil-square-o
   proyectos: briefcase
   bibliografia: book
   contacto: address-book
@@ -525,6 +525,7 @@ js: assets/js
 images: assets/images
 notas: assets/notas
 ejercicios: assets/ejercicios
+examenes: assets/examenes
 
 # Theme version
 version: 5.1.1
