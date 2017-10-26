@@ -17,3 +17,11 @@ Aquí encontrarán las versiones en pdf de las notas.
 ### Segundo parcial
 
 -   Tensores
+-   Métricas riemannianas
+-   Conexiones y derivada covariante
+-   Flujos, derivada de Lie y corchete de Lie
+-   El teorema fundamental de la geometría riemanniana
+
+### Tercer parcial
+
+-   Flujo geodésico
