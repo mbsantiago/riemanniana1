@@ -3,6 +3,7 @@ layout: post
 date: 15-09-2017
 title: Proyecto parcial 2
 category: Aviso
+permalink: proyecto2-Lie
 ---
 
 Les dejo aquí el primero proyecto oficial del curso. Pronto subiremos alternativas para que puedan elegir qué proyecto realizar este parcial.
