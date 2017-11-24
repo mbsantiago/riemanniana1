@@ -14,12 +14,15 @@ Aquí encontraran los pdf que contienen la lista de ejercicios de cada uno de lo
 *   Parcial 3:
     *    [Subvariedades y métricas inducidas]({{ site.baseurl }}/assets/ejercicios/parcial3/subvariedades.pdf) -- 10 ejercicios
     *    [Isometrías]({{ site.baseurl }}/assets/ejercicios/parcial3/isometrias.pdf) -- 10 ejercicios
+    *    [Vecindades normales]({{ site.baseurl }}/assets/ejercicios/parcial3/geodesicas.pdf) -- 2 ejercicios
 
 
 ## Exámenes
 
 Para que les pueda servir como material de estudio, y en el caso de que no hayan presentado algún exámen, aquí les dejamos los pdf de los exámenes pasados:
 
-*   [Exámen parcial 1]({{ site.baseurl }}/assets/examenes/examen1.pdf) -- 4 de septiembre de 2017
+*   [Examen parcial 1]({{ site.baseurl }}/assets/examenes/examen1.pdf) -- 4 de septiembre de 2017
 
-*   [Exámen parcial 2]({{ site.baseurl }}/assets/examenes/examen2.pdf) -- 19 de octubre de 2017
+*   [Examen parcial 2]({{ site.baseurl }}/assets/examenes/examen2.pdf) -- 19 de octubre de 2017
+
+*   Examen parcial 3 -- 27 de noviembre de 2017
