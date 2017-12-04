@@ -25,4 +25,4 @@ Para que les pueda servir como material de estudio, y en el caso de que no hayan
 
 *   [Examen parcial 2]({{ site.baseurl }}/assets/examenes/examen2.pdf) -- 19 de octubre de 2017
 
-*   Examen parcial 3 -- 27 de noviembre de 2017
+*   [Examen parcial 3]({{ site.baseurl }}/assets/examenes/examen3.pdf) -- 27 de noviembre de 2017
